@@ -77,3 +77,11 @@ local status = nlib.version.compare('orgNishikoto', 'library', '0.1.0');
 print(status); -- output: equal
 ```
 {% endcode %}
+
+<details>
+
+<summary>Logs</summary>
+
+Ajoutée en **v0.1.0**
+
+</details>

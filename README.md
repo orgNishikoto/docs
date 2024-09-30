@@ -1,7 +1,7 @@
-# Documentation Nishikoto
+# Page
 
-Il est simple de lire une documentation mais moins de la comprendre, c'est pour cela que je ferais le nécessaire pour quelle soit facile en intégrer. 
+Il est simple de lire une documentation mais moins de la comprendre, c'est pour cela que je ferais le nécessaire pour quelle soit facile en intégrer.
 
-{% content-ref url="./Library/page-1" %}
-Library 
+{% content-ref url="group-1/page-1.md" %}
+[page-1.md](group-1/page-1.md)
 {% endcontent-ref %}

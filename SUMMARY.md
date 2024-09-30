@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Page](README.md)
+* [Bienvenue](README.md)
 
-## Group 1
+## Library
 
-* [Page 1](group-1/page-1.md)
+* [Installation](Library/installation.md)

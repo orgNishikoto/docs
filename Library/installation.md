@@ -14,11 +14,11 @@ La bibliothèque [lib](https://github.com/JustGodWork/lib/releases/latest) est o
 - Ajoutez `ensure library` dans votre fichier `server.cfg` ou `resource.cfg`
 
 {% hint style="info" %}
-Tips: Démarrez la resource **library** avant vos resources personnel
+Tips: Démarrez la resource **library** avant vos resources personnelle
 {% endhint %}
 
 {% hint style="info" %}
-La suite est une intégration uiquement pour vos resource personnel, dans mes scripts la bibliothèque est déjà appelé.
+La suite est une intégration uniquement pour vos resources personnelle, dans mes scripts la bibliothèque est déjà appelée.
 {% endhint %}
 
 {% code title="fxmanifest.lua" overflow="" lineNumbers="true" %}

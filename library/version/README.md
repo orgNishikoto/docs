@@ -15,5 +15,5 @@ layout:
 
 # Version
 
-* [Comparaison](comparaison.md) v0.1.0
-* Get v0.1.0
+* [Comparaison](comparaison.md)
+* [Get](get.md)

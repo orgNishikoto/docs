@@ -1,4 +1,5 @@
 ---
+icon: rectangle-terminal
 layout:
   title:
     visible: true
@@ -14,5 +15,5 @@ layout:
 
 # Console
 
-* [Debug](./README.md)
-* [Console](./console.md)
+* [Debug](./)
+* [Console](console.md)

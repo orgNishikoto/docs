@@ -20,6 +20,8 @@ nlib.version.compare(username, reponame, version);
 ```
 {% endcode %}
 
+---
+
 ### Paramètres
 
 <table>
@@ -49,6 +51,8 @@ nlib.version.compare(username, reponame, version);
   </tbody>
 </table>
 
+---
+
 ### Retours
 
 <table>
@@ -67,6 +71,8 @@ nlib.version.compare(username, reponame, version);
     </tr>
   </tbody>
 </table>
+
+---
 
 ### Utilisation
 

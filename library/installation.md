@@ -16,6 +16,7 @@ La bibliothèque [lib](https://github.com/JustGodWork/lib/releases/latest) est o
 {% tab title="Manuellement" %}
 * Téléchargez la dernière [release](https://github.com/orgNishikoto/library/releases/latest)
 * Ajoutez `ensure library` dans votre fichier `server.cfg` ou `resource.cfg`
+* Copiez le contenu du fichier `convars.cfg` (inclu dans la bibliothèque) dans votre fichier `server.cfg` ou `resource.cfg`
 
 {% hint style="info" %}
 Tips: Démarrez la resource **library** avant vos resources personnelle

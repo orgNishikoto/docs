@@ -84,8 +84,3 @@ print(version_truncate); -- output: fork-alpha-0.1.0
 print(version_notruncate); -- output: 0.1.0
 ```
 {% endcode %}
-
-
-
-
-test.lua

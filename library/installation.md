@@ -4,12 +4,6 @@ icon: down-to-bracket
 
 # Installation
 
----
-icon: down-to-bracket
----
-
-# Installation
-
 ## Dépendance
 
 La bibliothèque [lib](https://github.com/JustGodWork/lib/releases/latest) est obligatoire pour faire fonctionner Library.

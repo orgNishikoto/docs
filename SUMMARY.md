@@ -4,7 +4,7 @@
 
 ## Library
 
-* [Installation](Library/installation.md)
+* [Installation](library/installation.md)
 * [Version](library/version/README.md)
   * [Comparaison](library/version/comparaison.md)
   * [Get](library/version/get.md)

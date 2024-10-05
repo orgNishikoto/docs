@@ -32,7 +32,6 @@
     * [DeleteFloat](library/kvp/internal/delflt.md)
     * [DeleteTable](library/kvp/internal/deltbl.md)
     * [DeleteBoolean](library/kvp/internal/delbool.md)
->>>>>>> 51f5576a93d333cfd183e8f5e05299098d399557
   * [External](library/kvp/external/README.md)
     * [GetNumber](library/kvp/external/getnumber.md)
     * [GetString](library/kvp/external/getstring.md)

@@ -1,14 +1,15 @@
 ---
-description: >-
-  Permet de connaître la version d'un script (lié au fxmanifest).
+description: Permet de connaître la version d'un script (lié au fxmanifest).
 ---
 
-# Description
+# version
 
 <details>
-  <summary>Logs</summary>
 
-  Ajoutée en **v0.1.2**
+<summary>Logs</summary>
+
+Ajoutée en **v0.1.2**
+
 </details>
 
 ### Appel
@@ -23,43 +24,13 @@ nlib.resource.author(resname);
 
 ### Paramètres
 
-<table>
-    <thead>
-        <tr>
-            <th width="151" align="center">Paramètre</th>
-            <th width="79" align="center">Type</th>
-            <th align="center">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>resname</td>
-            <td align="center">string</td>
-            <td>Nom de la resource</td>
-        </tr>
-    </tbody>
-</table>
+<table><thead><tr><th width="151" align="center">Paramètre</th><th width="79" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">resname</td><td align="center">string</td><td align="center">Nom de la resource</td></tr></tbody></table>
 
 ***
 
 ### Retours
 
-<table>
-    <thead>
-        <tr>
-            <th width="254" align="center">Variable</th>
-            <th width="82" align="center">Type</th>
-            <th align="center">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>version</td>
-            <td align="center">string</td>
-            <td>Version de la resource défini dans le fxmanifest</td>
-        </tr>
-    </tbody>
-</table>
+<table><thead><tr><th width="142" align="center">Variable</th><th width="82" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">version</td><td align="center">string</td><td align="center">Version de la resource défini dans le fxmanifest</td></tr></tbody></table>
 
 ***
 

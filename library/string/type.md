@@ -1,7 +1,8 @@
 ---
-description: >-
-  Permet de connaître le type d'une variable.
+description: Permet de connaître le type d'une variable.
 ---
+
+# type
 
 {% hint style="warning" %}
 Attention: J'ajoute' uniquement le fait voir le type 'float' d'un nombre, donc oui il est possible de voir les autres type avec cette fonction.
@@ -9,15 +10,17 @@ Attention: J'ajoute' uniquement le fait voir le type 'float' d'un nombre, donc o
 C'est pour cela que je n'ai pas remplacé la fonction native `type()` de lua.
 {% endhint %}
 
-# Get
+## Get
 
 <details>
-  <summary>Logs</summary>
 
-  Ajoutée en **v0.1.2**
+<summary>Logs</summary>
+
+Ajoutée en **v0.1.2**
+
 </details>
 
-### Appel
+#### Appel
 
 {% code title="example.lua" %}
 ```lua
@@ -27,49 +30,21 @@ nlib.string.type(variable);
 
 ***
 
-### Paramètres
+#### Paramètres
 
-<table>
-    <thead>
-        <tr>
-            <th width="151" align="center">Paramètre</th>
-            <th width="79" align="center">Type</th>
-            <th align="center">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>variable</td>
-            <td align="center">any</td>
-            <td></td>
-        </tr>=
-    </tbody>
-</table>
+\=
+
+<table><thead><tr><th width="151" align="center">Paramètre</th><th width="96" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">variable</td><td align="center">any</td><td align="center"></td></tr></tbody></table>
 
 ***
 
-### Retours
+#### Retours
 
-<table>
-    <thead>
-        <tr>
-            <th width="254" align="center">Variable</th>
-            <th width="82" align="center">Type</th>
-            <th align="center">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>type</td>
-            <td align="center">string</td>
-            <td>Le type de la variable envoyé.</td>
-        </tr>
-    </tbody>
-</table>
+<table><thead><tr><th width="190" align="center">Variable</th><th width="82" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">type</td><td align="center">string</td><td align="center">Le type de la variable envoyé.</td></tr></tbody></table>
 
 ***
 
-### Utilisation
+#### Utilisation
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua

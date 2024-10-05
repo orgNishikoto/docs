@@ -1,4 +1,5 @@
 ---
+icon: laptop-code
 layout:
   title:
     visible: true
@@ -14,5 +15,5 @@ layout:
 
 # KVP
 
-* [Internal](internal/README.md)
-* [External](external/README.md)
+* [Internal](internal/)
+* [External](external/)

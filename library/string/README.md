@@ -1,4 +1,5 @@
 ---
+icon: align-center
 layout:
   title:
     visible: true

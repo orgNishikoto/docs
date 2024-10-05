@@ -78,5 +78,5 @@ print(kvp_value, nlib.string.type(kvp_value)); -- output: {"foo"="bar", "myname"
 {% endcode %}
 
 {% hint style="danger" %}
-**Important**: Pour le moment il n'est pas possible de retourner une table, dés que je trouve la solution elle sera mise en place, sinon vous pouvez toujours contribuer à la bibliothèque.
+**Important**: Pour le moment il n'est pas possible de retourner une table, dés que je trouve la solution elle sera mise en place, sinon vous pouvez toujours contribuer au développement de la bibliothèque.
 {% endhint %}

@@ -7,6 +7,7 @@ description: >-
 
 <detail>
   <summary>Logs</summary>
+  
   Ajoutée en **v0.1.2**
 </detail>
 

@@ -1,5 +1,4 @@
 ---
-icon: rectangle-terminal
 layout:
   title:
     visible: true
@@ -13,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Console
+# String
 
-* [Debug](debug.md)
-* [Console](console.md)
+* [tobool](tobool.md)
+* [type](type.md)

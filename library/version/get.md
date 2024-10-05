@@ -19,7 +19,7 @@ nlib.version.get(username, reponame, truncate);
 ```
 {% endcode %}
 
----
+***
 
 ### Paramètres
 
@@ -50,7 +50,7 @@ nlib.version.get(username, reponame, truncate);
     </tbody>
 </table>
 
----
+***
 
 ### Retours
 
@@ -71,7 +71,7 @@ nlib.version.get(username, reponame, truncate);
     </tbody>
 </table>
 
----
+***
 
 ### Utilisation
 

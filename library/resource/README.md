@@ -1,5 +1,4 @@
 ---
-icon: rectangle-terminal
 layout:
   title:
     visible: true
@@ -13,7 +12,9 @@ layout:
     visible: true
 ---
 
-# Console
+# Resource
 
-* [Debug](debug.md)
-* [Console](console.md)
+* [Name](name.md)
+* [Author](author.md)
+* [Description](description.md)
+* [Version](version.md)

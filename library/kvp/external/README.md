@@ -1,5 +1,4 @@
 ---
-icon: rectangle-terminal
 layout:
   title:
     visible: true
@@ -13,7 +12,8 @@ layout:
     visible: true
 ---
 
-# Console
+# KVP: External
 
-* [Debug](debug.md)
-* [Console](console.md)
+* [GetNumber](getnumber.md)
+* [GetString](getstring.md)
+* [GetFloat](getfloat.md)

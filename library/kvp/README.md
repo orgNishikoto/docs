@@ -1,5 +1,4 @@
 ---
-icon: rectangle-terminal
 layout:
   title:
     visible: true
@@ -13,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Console
+# KVP
 
-* [Debug](debug.md)
-* [Console](console.md)
+* [Internal](internal/README.md)
+* [External](external/README.md)

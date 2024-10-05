@@ -2,19 +2,26 @@
 description: >-
   Permet de créer une kvp (en liaison avec le nom de votre script).
 ---
+
 # Set
+
 <detail>
   <summary>Logs</summary>
   Ajoutée en **v0.1.2**
 </detail>
+
 ### Appel
+
 {% code title="example.lua" %}
 ```lua
 nlib.kvp.internal.Set(name, value);
 ```
 {% endcode %}
+
 ***
+
 ### Paramètres
+
 <table>
     <thead>
         <tr>
@@ -36,8 +43,11 @@ nlib.kvp.internal.Set(name, value);
         </tr>
     </tbody>
 </table>
+
 ***
+
 ### Utilisation
+
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
 nlib.kvp.internal.Set('mykvp_str', 'Hoj Guys');

@@ -1,17 +1,18 @@
 ---
-description: >-
-  Permet de créer une kvp (en liaison avec le nom de votre script).
+description: Permet de créer une kvp (en liaison avec le nom de votre script).
 ---
 
 # Set
 
-<detail>
-  <summary>Logs</summary>
-  
-  Ajoutée en **v0.1.2**
-</detail>
+<details>
 
-### Appel
+<summary>Logs</summary>
+
+Ajoutée en **v0.1.2**
+
+</details>
+
+#### Appel
 
 {% code title="example.lua" %}
 ```lua
@@ -21,33 +22,13 @@ nlib.kvp.internal.Set(name, value);
 
 ***
 
-### Paramètres
+#### Paramètres
 
-<table>
-    <thead>
-        <tr>
-            <th width="151" align="center">Paramètre</th>
-            <th width="79" align="center">Type</th>
-            <th align="center">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>name</td>
-            <td align="center">string</td>
-            <td>Nom de la kvp</td>
-        </tr>
-        <tr>
-            <td>value</td>
-            <td align="center">any</td>
-            <td>Valeur de la kvp</td>
-        </tr>
-    </tbody>
-</table>
+<table><thead><tr><th width="151" align="center">Paramètre</th><th width="79" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">string</td><td align="center">Nom de la kvp</td></tr><tr><td align="center">value</td><td align="center">any</td><td align="center">Valeur de la kvp</td></tr></tbody></table>
 
 ***
 
-### Utilisation
+#### Utilisation
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua

@@ -80,3 +80,7 @@ print(kvp_value, nlib.string.type(kvp_value)); -- output: {"foo"="bar", "myname"
 {% hint style="danger" %}
 **Important**: Pour le moment il n'est pas possible de retourner une table, dés que je trouve la solution elle sera mise en place, sinon vous pouvez toujours contribuer au développement de la bibliothèque.
 {% endhint %}
+
+{% hint style="info" %}
+La dernière version de la fonction est disponible sur la branche "main" du dépôt Github.
+{% endhint %}

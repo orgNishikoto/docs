@@ -80,6 +80,12 @@ nlib.version.compare(username, reponame, version);
 ```lua
 local status = nlib.version.compare('orgNishikoto', 'library', '0.1.0');
 
-print(status); -- output: equal
+if (status) then 
+    print(status); -- output: equal
+end
 ```
 {% endcode %}
+
+{% hint style="info" %}
+**Tips**: Veillez à ne pas vous faire "rate limit" par l'API Github. (Max 60 requêtes)
+{% endhint %}

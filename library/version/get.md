@@ -80,7 +80,9 @@ nlib.version.get(username, reponame, truncate);
 local version_truncate = nlib.version.compare('orgNishikoto', 'library', true);
 local version_notruncate = nlib.version.compare('orgNishikoto', 'library', false);
 
-print(version_truncate); -- output: fork-alpha-0.1.0
-print(version_notruncate); -- output: 0.1.0
+if (version_truncate and version_notruncate) then
+    print(version_truncate); -- output: fork-alpha-0.1.0
+    print(version_notruncate); -- output: 0.1.0
+end
 ```
 {% endcode %}

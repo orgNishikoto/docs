@@ -86,3 +86,7 @@ if (version_truncate and version_notruncate) then
 end
 ```
 {% endcode %}
+
+{% hint style="info" %}
+**Tips**: Veillez à ne pas vous faire "rate limit" par l'API Github. (Max 60 requêtes)
+{% endhint %}

@@ -41,3 +41,18 @@
   * [description](library/resource/description.md)
   * [name](library/resource/name.md)
   * [version](library/resource/version.md)
+
+## PrincessBan
+
+* [Installation](princessban/installation.md)
+  * [Exports](princessban/exports/README.md)
+    * [GetObject](princessban/exports/getobject.md)
+    * [BanUser](princessban/exports/banuser.md)
+    * [BanIdentifier](princessban/exports/banidentifier.md)
+    * [GetLicenseByBanId](princessban/exports/getlicensebybanid.md)
+    * [IdentifierIsBanned](princessban/exports/identifierisbanned.md)
+    * [UserIsBanned](princessban/exports/userisbanned.md)
+    * [GetUserBanHistory](princessban/exports/getuserbanhistory.md)
+    * [GetUserBanInfo](princessban/exports/getuserbaninfo.md)
+    * [UnbanUser](princessban/exports/unbanuser.md)
+    * [UnbanIdentifierByLicense](princessban/exports/unbanidentifierbylicense.md)

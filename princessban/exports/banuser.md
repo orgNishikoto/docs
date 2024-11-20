@@ -115,3 +115,4 @@ if (BanPlayer) then
   print('User has been banned.');
 end
 ```
+{% endcode %}

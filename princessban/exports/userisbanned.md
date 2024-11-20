@@ -73,3 +73,4 @@ if (UserIsBanned) then
   print('User is banned.');
 end
 ```
+{% endcode %}

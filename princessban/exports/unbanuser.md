@@ -100,3 +100,4 @@ if (BanPlayer) then
   print('User has been unbanned.');
 end
 ```
+{% endcode %}

@@ -73,3 +73,4 @@ if (IdentifierIsBanned) then
   print('Identifier is banned.');
 end
 ```
+{% endcode %}

@@ -28,7 +28,7 @@ Si vous avez renomé le dossier `princessban`, alors mettez le nom que vous lui 
 {% endhint %}
 
 {% hint style="info" %}
-Si vous utiliser les exports de PrincessBan, alors veillez à ensure le script avant tout.
+Si vous utilisez les exports de PrincessBan, alors veillez à ensure le script avant tout.
 {% endhint %}
 
 {% endtab %}

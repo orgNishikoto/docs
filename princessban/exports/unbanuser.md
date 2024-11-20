@@ -70,7 +70,7 @@ PrincessBan.UnbanUser(license, author);
 
 ### Event
 
-L'event sera déclencher dés qu'un joueur se fera bannir.
+L'event sera déclencher dés qu'un joueur se fera débannir.
 
 {% code title="server/example.lua" %}
 ```lua

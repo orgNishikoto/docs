@@ -1,20 +1,18 @@
 ---
 description: >-
-  Ce log est un peu particulier, il s'affiche uniquemnt si la convar
-  'nishikoto:library:debug' est active (sur 'true').
+  This log is a bit special: it's only displayed if the convar
+  'nishikoto:library:debug' is active (set to 'true').
 ---
 
 # Debug
 
 <details>
+  <summary>Logs</summary>
 
-<summary>Logs</summary>
-
-Ajoutée en **v0.1.0**
-
+  Added in **v0.1.0**
 </details>
 
-### Appel
+### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -22,14 +20,14 @@ nlib.console.debug(eLevel, message);
 ```
 {% endcode %}
 
-***
+---
 
-### Paramètres
+### Parameters
 
 <table>
   <thead>
     <tr>
-      <th align="center">Paramètre</th>
+      <th align="center">Parameter</th>
       <th width="79" align="center">Type</th>
       <th align="center">Description</th>
     </tr>
@@ -38,19 +36,19 @@ nlib.console.debug(eLevel, message);
     <tr>
       <td align="center">eLevel</td>
       <td align="center">string</td>
-      <td align="center">Level d'erreur du debug</td>
+      <td align="center">Debug error level</td>
     </tr>
     <tr>
       <td align="center">message</td>
       <td align="center">string</td>
-      <td align="center">Message de debug</td>
+      <td align="center">Debug message</td>
     </tr>
   </tbody>
 </table>
 
-***
+---
 
-### Utilisation
+### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua

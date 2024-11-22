@@ -1,6 +1,6 @@
 ---
 description: >-
-  Permet de récupérer une kvp enregistrer par votre script
+  Retrieves a kvp recorded by your script
 ---
 
 # GetNumber
@@ -8,10 +8,10 @@ description: >-
 <details>
   <summary>Logs</summary>
 
-  Ajoutée en **v0.1.2**
+  Added in **v0.1.2**
 </details>
 
-### Appel
+### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -22,12 +22,12 @@ nlib.kvp.internal.GetInt(name);
 
 ***
 
-### Paramètres
+### Parameters
 
 <table>
     <thead>
         <tr>
-            <th width="151" align="center">Paramètre</th>
+            <th width="151" align="center">Parameter</th>
             <th width="79" align="center">Type</th>
             <th align="center">Description</th>
         </tr>
@@ -36,14 +36,14 @@ nlib.kvp.internal.GetInt(name);
         <tr>
             <td>name</td>
             <td align="center">string</td>
-            <td>Nom de la KVP</td>
+            <td>KVP key</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Retours
+### Return
 
 <table>
     <thead>
@@ -57,20 +57,20 @@ nlib.kvp.internal.GetInt(name);
         <tr>
             <td>kvp</td>
             <td align="center">number</td>
-            <td>Valeur/Clé de la KVP</td>
+            <td>KVP value</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Utilisation
+### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
 nlib.kvp.internal.Set('kvpint', 45);
 local kvp_value = nlib.kvp.internal.GetInt('kvpint');
 
-print(kvp_value, nlib.string.type(kvp_value)); -- output: 45, number 
+print(kvp_value, nlib.string.type(kvp_value)); -- output: 45, number
 ```
 {% endcode %}

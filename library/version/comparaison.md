@@ -1,7 +1,7 @@
 ---
 description: >-
-  Permet de comparé la version de votre script avec la version de la dernière
-  release d'un dépôt GitHub (publique).
+  Compares the version of your script with the version of the latest
+  release of a (public) GitHub repository.
 ---
 
 # Comparaison
@@ -9,10 +9,10 @@ description: >-
 <details>
   <summary>Logs</summary>
 
-  Ajoutée en **v0.1.0**
+  Added in **v0.1.0**
 </details>
 
-### Appel
+### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -22,12 +22,12 @@ nlib.version.compare(username, reponame, version);
 
 ---
 
-### Paramètres
+### Parameters
 
 <table>
   <thead>
     <tr>
-      <th width="151" align="center">Paramètre</th>
+      <th width="151" align="center">Parameter</th>
       <th width="79" align="center">Type</th>
       <th align="center">Description</th>
     </tr>
@@ -36,24 +36,24 @@ nlib.version.compare(username, reponame, version);
     <tr>
       <td>username</td>
       <td align="center">string</td>
-      <td>Nom de l'utilisateur github ou de l'organisation github</td>
+      <td>Name of github user or github organization</td>
     </tr>
     <tr>
       <td>reponame</td>
       <td align="center">string</td>
-      <td>Nom du dépôt github</td>
+      <td>Name of github repository</td>
     </tr>
     <tr>
       <td>version</td>
       <td align="center">string</td>
-      <td>Version de votre script</td>
+      <td>Version of your script</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### Retours
+### Return
 
 <table>
   <thead>
@@ -67,14 +67,14 @@ nlib.version.compare(username, reponame, version);
     <tr>
       <td align="center">lower | upper | equal | error</td>
       <td align="center">string</td>
-      <td>Status de la comparaison</td>
+      <td>Comparison status</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### Utilisation
+### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
@@ -87,5 +87,5 @@ end
 {% endcode %}
 
 {% hint style="info" %}
-**Tips**: Veillez à ne pas vous faire "rate limit" par l'API Github. (Max 60 requêtes)
+**Tips**: Make sure you don't get “rate-limited” by the Github API. (Max 60 requests)
 {% endhint %}

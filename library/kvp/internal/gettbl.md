@@ -1,6 +1,6 @@
 ---
 description: >-
-  Permet de récupérer une kvp enregistrer par votre script
+  Retrieves a kvp recorded by your script
 ---
 
 # GetTable
@@ -8,7 +8,7 @@ description: >-
 <details>
   <summary>Logs</summary>
 
-  Ajoutée en **v0.1.2**
+  Added in **v0.1.2**
 </details>
 
 ### Appel
@@ -21,12 +21,12 @@ nlib.kvp.internal.GetTable(name);
 
 ***
 
-### Paramètres
+### Parameters
 
 <table>
     <thead>
         <tr>
-            <th width="151" align="center">Paramètre</th>
+            <th width="151" align="center">Parameter</th>
             <th width="79" align="center">Type</th>
             <th align="center">Description</th>
         </tr>
@@ -35,14 +35,14 @@ nlib.kvp.internal.GetTable(name);
         <tr>
             <td>name</td>
             <td align="center">string</td>
-            <td>Nom/Clé de la KVP</td>
+            <td>KVP key</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Retours
+### Return
 
 <table>
     <thead>
@@ -56,14 +56,14 @@ nlib.kvp.internal.GetTable(name);
         <tr>
             <td>kvp</td>
             <td align="center">table</td>
-            <td>Valeur de la KVP</td>
+            <td>KVP value</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Utilisation
+### Call
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
@@ -78,9 +78,9 @@ print(kvp_value, nlib.string.type(kvp_value)); -- output: {"foo"="bar", "myname"
 {% endcode %}
 
 {% hint style="danger" %}
-**Important**: Pour le moment il n'est pas possible de retourner une table, dés que je trouve la solution elle sera mise en place, sinon vous pouvez toujours contribuer au développement de la bibliothèque.
+**Important**: For the moment, it's not possible to return a table, but as soon as I find a solution, it will be implemented. If not, you can always contribute to the development of the library.
 {% endhint %}
 
 {% hint style="info" %}
-La dernière version de la fonction est disponible sur la branche "main" du dépôt Github.
+The latest version of the function is available on the “main” branch of the Github repository.
 {% endhint %}

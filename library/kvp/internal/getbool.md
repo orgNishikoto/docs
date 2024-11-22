@@ -1,6 +1,6 @@
 ---
 description: >-
-  Permet de récupérer une kvp enregistrer par votre script
+  Retrieves a kvp recorded by your script
 ---
 
 # GetBoolean
@@ -8,10 +8,10 @@ description: >-
 <details>
   <summary>Logs</summary>
 
-  Ajoutée en **v0.1.2**
+  Added in **v0.1.2**
 </details>
 
-### Appel
+### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -21,12 +21,12 @@ nlib.kvp.internal.GetBoolean(name);
 
 ***
 
-### Paramètres
+### Parameters
 
 <table>
     <thead>
         <tr>
-            <th width="151" align="center">Paramètre</th>
+            <th width="151" align="center">Parameter</th>
             <th width="79" align="center">Type</th>
             <th align="center">Description</th>
         </tr>
@@ -35,14 +35,14 @@ nlib.kvp.internal.GetBoolean(name);
         <tr>
             <td>name</td>
             <td align="center">string</td>
-            <td>Nom/Clé de la KVP</td>
+            <td>KVP name</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Retours
+### Return
 
 <table>
     <thead>
@@ -56,14 +56,14 @@ nlib.kvp.internal.GetBoolean(name);
         <tr>
             <td>kvp</td>
             <td align="center">boolean</td>
-            <td>Valeur de la KVP</td>
+            <td>KVP value</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Utilisation
+### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua

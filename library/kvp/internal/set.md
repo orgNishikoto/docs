@@ -1,5 +1,5 @@
 ---
-description: Permet de créer une kvp (en liaison avec le nom de votre script).
+description: Creates a kvp (linked to your script name).
 ---
 
 # Set
@@ -12,7 +12,7 @@ Ajoutée en **v0.1.2**
 
 </details>
 
-#### Appel
+#### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -22,13 +22,13 @@ nlib.kvp.internal.Set(name, value);
 
 ***
 
-#### Paramètres
+#### Parameters
 
-<table><thead><tr><th width="151" align="center">Paramètre</th><th width="79" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">string</td><td align="center">Nom de la kvp</td></tr><tr><td align="center">value</td><td align="center">any</td><td align="center">Valeur de la kvp</td></tr></tbody></table>
+<table><thead><tr><th width="151" align="center">Parameter</th><th width="79" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">string</td><td align="center">Name of kvp</td></tr><tr><td align="center">value</td><td align="center">any</td><td align="center">kvp value</td></tr></tbody></table>
 
 ***
 
-#### Utilisation
+#### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Ce fichier contient tout les logs disponible et qui peuvent être écrit dans la console.
+  This file contains all available logs that can be written to the console.
 ---
 
 # Console
@@ -8,15 +8,15 @@ description: >-
 <details>
   <summary>Logs</summary>
 
-  Ajoutée en **v0.1.0**
+  Added in **v0.1.0**
 </details>
 
-### Paramètres
+### Parameters
 
 <table>
   <thead>
     <tr>
-      <th width="151" align="center">Paramètre</th>
+      <th width="151" align="center">Parameter</th>
       <th width="79" align="center">Type</th>
       <th align="center">Description</th>
     </tr>
@@ -32,7 +32,7 @@ description: >-
 
 ***
 
-### Utilisation
+### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
@@ -47,5 +47,5 @@ nlib.console.warn('Your warning message');
 ![console-prints](../../assets/snippets/console-prints.png)
 
 {% hint style="info" %}
-Tips: **nlib.console** peut être remplacé par **console**
+Tips: **nlib.console** can be replaced by **console**.
 {% endhint %}

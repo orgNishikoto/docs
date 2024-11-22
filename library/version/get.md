@@ -1,6 +1,6 @@
 ---
 description: >-
-  Permet de connaître la version d'un dépôt GitHub (publique).
+  Find out the version of a GitHub repository (public).
 ---
 
 # Get
@@ -8,10 +8,10 @@ description: >-
 <details>
   <summary>Logs</summary>
 
-  Ajoutée en **v0.1.0**
+  Added in **v0.1.0**
 </details>
 
-### Appel
+### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -21,12 +21,12 @@ nlib.version.get(username, reponame, truncate);
 
 ***
 
-### Paramètres
+### Parameters
 
 <table>
     <thead>
         <tr>
-            <th width="151" align="center">Paramètre</th>
+            <th width="151" align="center">Parameter</th>
             <th width="79" align="center">Type</th>
             <th align="center">Description</th>
         </tr>
@@ -35,24 +35,24 @@ nlib.version.get(username, reponame, truncate);
         <tr>
             <td>username</td>
             <td align="center">string</td>
-            <td>Nom de l'utilisateur github ou de l'organisation github</td>
+            <td>Name of github user or github organization</td>
         </tr>
         <tr>
             <td>reponame</td>
             <td align="center">string</td>
-            <td>Nom du dépôt github ou de l'organisation github</td>
+            <td>Name of github repository or github organization</td>
         </tr>
         <tr>
             <td>truncate</td>
             <td align="center">boolean</td>
-            <td>Permet d'avoir le nom de la version complète (fork-x.x.x) ou coupé (x.x.x)</td>
+            <td>Display full version name (fork-x.x.x) or cut version name (x.x.x)</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Retours
+### Return
 
 <table>
     <thead>
@@ -66,14 +66,14 @@ nlib.version.get(username, reponame, truncate);
         <tr>
             <td>version</td>
             <td align="center">string</td>
-            <td>Version du dépôt GitHub séléctionné</td>
+            <td>Version of selected GitHub repository</td>
         </tr>
     </tbody>
 </table>
 
 ***
 
-### Utilisation
+### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
@@ -88,5 +88,5 @@ end
 {% endcode %}
 
 {% hint style="info" %}
-**Tips**: Veillez à ne pas vous faire "rate limit" par l'API Github. (Max 60 requêtes)
+**Tips**: Make sure you don't get “rate-limited” by the Github API. (Max 60 requests)
 {% endhint %}

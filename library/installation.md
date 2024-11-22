@@ -4,26 +4,26 @@ icon: down-to-bracket
 
 # Installation
 
-## Dépendance
+## Dependency
 
-La bibliothèque [lib](https://github.com/JustGodWork/lib/releases/latest) est obligatoire pour faire fonctionner Library.
+[Lib](https://github.com/JustGodWork/lib/releases/latest) is required to run Library.
 
-* Cliquez [ici](https://github.com/JustGodWork/lib/blob/main/README.md#getting-started) pour suivre les étapes d'installation de la bibliothèque lib
+* Click [here](https://github.com/JustGodWork/lib/blob/main/README.md#getting-started) to follow the steps for installing the library.
 
 ## Installation
 
 {% tabs %}
-{% tab title="Manuellement" %}
-* Téléchargez la dernière [release](https://github.com/orgNishikoto/library/releases/latest)
-* Ajoutez `ensure library` dans votre fichier `server.cfg` ou `resource.cfg`
-* Copiez le contenu du fichier `convars.cfg` (inclu dans la bibliothèque) dans votre fichier `server.cfg` ou `resource.cfg`
+{% tab title="Manually" %}
+* Download the latest [release](https://github.com/orgNishikoto/library/releases/latest)
+* Add `ensure library` in your `server.cfg` or `resource.cfg` file
+* Copy the contents of the `convars.cfg` file (included in the library) into your `server.cfg` or `resource.cfg` file
 
 {% hint style="info" %}
-Tips: Démarrez la resource **library** avant vos resources personnelle
+Tips: Start the **library** resource before your personal resources
 {% endhint %}
 
 {% hint style="info" %}
-La suite est une intégration uniquement pour vos resources personnelle, dans mes scripts la bibliothèque est déjà appelée.
+The rest is an integration for your personal resources only, in my scripts the library is already called.
 {% endhint %}
 
 {% code title="fxmanifest.lua" lineNumbers="true" %}
@@ -36,7 +36,7 @@ shared_scripts {
 {% endcode %}
 {% endtab %}
 
-{% tab title="Git" %}
+{% tab title="By git" %}
 {% code title="" lineNumbers="true" %}
 ```
 git clone https://github.com/orgNishikoto/library.git

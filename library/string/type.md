@@ -1,26 +1,22 @@
 ---
-description: Permet de connaître le type d'une variable.
+description: Identifies the type of a variable.
 ---
 
 # type
 
 {% hint style="warning" %}
-Attention: J'ajoute' uniquement le fait voir le type 'float' d'un nombre, donc oui il est possible de voir les autres type avec cette fonction.
+Warning: I'm only adding the fact that I can see the 'float' type of a number, so yes, it's possible to see other types with this function.
 
-C'est pour cela que je n'ai pas remplacé la fonction native `type()` de lua.
+That's why I haven't replaced lua's native `type()` function.
 {% endhint %}
 
-## Get
-
 <details>
+  <summary>Logs</summary>
 
-<summary>Logs</summary>
-
-Ajoutée en **v0.1.2**
-
+  Added in **v0.1.2**
 </details>
 
-#### Appel
+### Call
 
 {% code title="example.lua" %}
 ```lua
@@ -30,21 +26,19 @@ nlib.string.type(variable);
 
 ***
 
-#### Paramètres
+### Parameters
 
-\=
-
-<table><thead><tr><th width="151" align="center">Paramètre</th><th width="96" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">variable</td><td align="center">any</td><td align="center"></td></tr></tbody></table>
+<table><thead><tr><th width="151" align="center">Parameter</th><th width="96" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">variable</td><td align="center">any</td><td align="center"></td></tr></tbody></table>
 
 ***
 
-#### Retours
+#### Return
 
-<table><thead><tr><th width="190" align="center">Variable</th><th width="82" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">type</td><td align="center">string</td><td align="center">Le type de la variable envoyé.</td></tr></tbody></table>
+<table><thead><tr><th width="190" align="center">Variable</th><th width="82" align="center">Type</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center">type</td><td align="center">string</td><td align="center">The type of variable sent</td></tr></tbody></table>
 
 ***
 
-#### Utilisation
+#### Use
 
 {% code title="example.lua" lineNumbers="true" %}
 ```lua
